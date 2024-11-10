@@ -1,0 +1,58 @@
+.sendForm {
+  display: flex;
+  margin-top: 210px;
+  margin-left: 70px;
+  gap: 44px;
+}
+
+.textarea {
+  width: 976px;
+  height: 40px;
+  border-radius: 20px;
+  /* position: relative;
+    top: 180px;
+    left: -190px; */
+  background-color: #f5f7fb;
+  display: flex;
+  flex-direction: row;
+  border-style: none;
+  box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03),
+    0px 1px 2px rgba(29, 33, 38, 0.1);
+  resize: none;
+  padding: 10px;
+}
+
+::placeholder {
+  position: relative;
+  top: 3px;
+  left: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+  background-color: #0066cc;
+  border-radius: 20px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-style: none;
+  /* position: relative;
+    left: 1090px;
+    bottom: 40px; */
+  transition: 0.3s, 0.3s;
+}
+
+.button:hover {
+  background-color: #005bb5;
+  transform: scale(1.05);
+}
+.button:active {
+  background-color: #004494;
+  transform: scale(0.95);
+}
